@@ -1,2 +1,2 @@
 # Akan-Name
-Ghanaian day of birth-based naming project
+## Ghanaian day of birthday-based naming project
