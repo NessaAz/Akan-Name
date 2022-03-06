@@ -1,7 +1,17 @@
-body {
+body 
+{
     font-family: sans-serif;
     padding-top: 54px;
     padding-left: 50px;
     color: rgb(56, 83, 83);
-  }
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(139, 139, 55);
+}
+
   
