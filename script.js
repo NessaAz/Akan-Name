@@ -12,6 +12,7 @@ function getAkanName()
     let myGender = document.getElementsByName("gender");
     let dateOfBirth = new Date(myBirthday);
     let dayOfTheWeek = dateOfBirth.getDay();
+    event.preventDefault()
 
     if(myBirthday === "")
     {
