@@ -14,4 +14,31 @@ h1, h2, h3, h4, h5, h6
     color: rgb(139, 139, 55);
 }
 
+.fs11 {
+    font-size: small;
+}
   
+.fs12 {
+    font-size: medium;
+}
+  
+.fs13 {
+    font-size: 15px;
+}
+  
+.fs14 {
+    font-size: 16px;
+}
+  
+.fs15 {
+    font-size: 17px;
+}
+  
+.fs16 {
+    font-size: 19px;
+}
+  
+.fs30 {
+    font-size: 28px;
+}
+    
