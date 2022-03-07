@@ -16,7 +16,7 @@ function getAkanName()
 
     if(myBirthday === "")
     {
-        document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
+        document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>OOPS!</strong> Please enter your Date of Birth!</div>";
         $('#message').addClass("animated shake");
     }
     else 

@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Akan Naming System</title>
-</head>
-<body>
-   <div class="container">
+  </head>
+  <body>
+    <style>
+        body {
+            background-image: url(images/ghanaian\ man.jpg);
+            background-size: 50% 100%;
+            background-blend-mode:luminosity;
+        }
+    </style>
+    <div class="container">
         <div class="row">
-                   <div class="col-md-2"></div>
-                   <div class="col-md-4 intro">
-                       <h1 class="Akan-heading">Find Out <span class="heading-name">Your Akan Name</span></h1>
-                       <hr>
-                       <div class="akan-description">
-					       <p class="fs12">This web app determines the Akan name of an individual based on which day of the week they were born and most definitely their gender. This is in accordance with an ancient Ghanaian naming tradition.</p>
-					       <p class="fs12">Take a look at the names with respect to gender and corresponding days</p>
-                           <div class="row ghanaian-names">
-						       <div class="col-md-6">
-							        <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female names</h4>
+           <div class="col-md-2"></div>
+           <div class="col-md-4 intro">
+                <h1 class="Akan-heading">Find Out <span class="heading-name">Your Akan Name</span></h1>
+                <hr>
+                <div class="akan-description">
+				    <p class="fs12">This web app determines the Akan name of an individual based on which day of the week they were born and most definitely their gender. This is in accordance with an ancient Ghanaian naming tradition.</p>
+				    <p class="fs12">Take a look at the names with respect to gender and corresponding days</p>
+                        <div class="row ghanaian-names">
+				           <div class="col-md-6">
+							    <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female names</h4>
 							        <ul class="fs11">
 								        <li>Sunday: Akosua</li>
 								        <li>Monday: Adwoa</li>
@@ -29,9 +36,9 @@
 								        <li>Friday: Afua</li>
 								        <li>Saturday: Ama</li>
 							        </ul>
-						        </div>
-                                <div class="col-md-6">
-							        <h4><i class="fa fa-male"></i>&nbsp;&nbsp;Male names</h4>
+						    </div>
+                            <div class="col-md-6">
+							    <h4><i class="fa fa-male"></i>&nbsp;&nbsp;Male names</h4>
 							        <ul class="fs11">
 								        <li>Sunday: Kwasi</li>
 								        <li>Monday: Kwadwo</li>
@@ -41,46 +48,46 @@
 								        <li>Friday: Kofi</li>
 								        <li>Saturday: Kwame</li>
 							        </ul>
-						        </div>
-					        </div>
-                        </div>
+						    </div>
+					    </div>
                     </div>
-                    <div class="col-md-4 mt30 akan-form">
-                        <h5>Enter your date of birth:</h5>
-                        <div class="add-stylist-form">
-                            <form>
-                                <div class="form-group mb15">
-                                      <label class="label">Birthday</label>
-                                       <div class="input-group mb15">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        <input type="date" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
-                                     </div>
-                                </div> 
-                                <div class="form-group mb15">
-                                    <label class="label">Gender</label>
-                                     <div class="rdio rdio-default fs11">
-                                      <input type="radio" name="gender" id="female" value="Female">
-                                      <label for="female">&nbsp;&nbsp;Female</label>
-                                  </div>
-                                  <div class="rdio rdio-default fs11">
-                                      <input type="radio" name="gender" value="Male" id="Male">
-                                      <label for="male">&nbsp;&nbsp;Male</label>
-                                   </div>
-                              </div>  
-                              <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
-			                  <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
-                            </form>
-                        </div>
-                        <hr>
-                        <div class="your-akan-name">
-                            <p id="message" class="output"></p>
-                        </div>
+                </div>
+                <div class="col-md-4 mt30 akan-form">
+                    <h5>Enter your date of birth:</h5>
+                    <div class="add-stylist-form">
+                        <form>
+                            <div class="form-group mb15">
+                                <label class="label">Birthday</label>
+                                <div class="input-group mb15">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                    <input type="date" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+                                </div>
+                            </div> 
+                            <div class="form-group mb15">
+                                <label class="label">Gender</label>
+                                <div class="rdio rdio-default fs11">
+                                    <input type="radio" name="gender" id="female" value="Female">
+                                    <label for="female">&nbsp;&nbsp;Female</label>
+                                </div>
+                                <div class="rdio rdio-default fs11">
+                                    <input type="radio" name="gender" value="Male" id="Male">
+                                    <label for="male">&nbsp;&nbsp;Male</label>
+                                </div>
+                            </div>  
+                            <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+       	                    <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="your-akan-name">
+                        <p id="message" class="output"></p>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
             </div>       
-    </div>        
+        </div>  
+    </div>     
     <script src="bootstrap.css"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
