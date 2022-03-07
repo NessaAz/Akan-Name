@@ -65,3 +65,26 @@ h1, h2, h3, h4, h5, h6
 .mt50{
     margin-top: 50px;
 }
+
+.large-red-button {
+    width: 100%;
+    padding: 30px;
+    border-color: darkgreen;
+}
+  
+.nomargin {
+    margin: 0 !important;
+}
+  
+.intro h1 {
+    font-size: 75px;
+}
+  
+span.heading-name {
+    color: rgb(74, 163, 163) !important;
+}
+  
+.Akan-names h4, .akan-form h5 {
+    color: rgb(66, 121, 89);
+}
+  
