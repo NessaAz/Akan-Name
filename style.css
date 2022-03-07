@@ -41,4 +41,27 @@ h1, h2, h3, h4, h5, h6
 .fs30 {
     font-size: 28px;
 }
-    
+
+.mt0{
+    margin-top: 0;
+}
+  
+.mt10{
+    margin-top: 10px;
+}
+  
+.mt20{
+    margin-top: 20px;
+}
+  
+.mt30{
+    margin-top: 30px;
+}
+  
+.mt40{
+    margin-top: 40px;
+}
+  
+.mt50{
+    margin-top: 50px;
+}
