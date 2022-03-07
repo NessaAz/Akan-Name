@@ -55,15 +55,15 @@ h1, h2, h3, h4, h5, h6
 }
   
 .mt30{
-    margin-top: 30px;
+    margin-top: 20px;
 }
   
 .mt40{
-    margin-top: 40px;
+    margin-top: 20px;
 }
   
 .mt50{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .large-red-button {
@@ -77,18 +77,18 @@ h1, h2, h3, h4, h5, h6
 }
   
 .intro h1 {
-    font-size: 75px;
+    font-size: 50px;
 }
   
 span.heading-name {
-    color: rgb(74, 163, 163) !important;
+    color: rgb(16, 61, 61) !important;
 }
   
 .Akan-names h4, .akan-form h5 {
-    color: rgb(66, 121, 89);
+    color: rgb(20, 44, 30);
 }
 .rdio input[type="radio"]:checked + label::after {
-    background-color: rgb(182, 182, 212);
+    background-color: rgb(89, 89, 114);
 }
   
 .text-right {
@@ -114,12 +114,12 @@ span.heading-name {
 }
   
 .rdio input[type="radio"] {
-    opacity: 1;
+    opacity: 0;
 }
   
 .rdio label {
-    padding-left: 10px;
-    cursor: grab;
+    padding-left: 4px;
+    cursor: pointer;
     margin-bottom: 5px !important;
 }
   
@@ -135,7 +135,7 @@ span.heading-name {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 1px solid rgb(98, 70, 151);
-    background: rgb(40, 139, 123);
+    background: rgb(198, 206, 204);
 }
  
 .rdio input[type="radio"]:disabled + label  {
