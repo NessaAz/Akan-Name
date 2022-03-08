@@ -1,5 +1,5 @@
 # Akan-Name-Project
-## A birthday-based naming project according to an ancient Ghanaian radition
+## A birthday-based naming project according to an ancient Ghanaian tradition
 # Author - Vanessa Shiundu
 # I am a junior developer specializing in programming languages such as HTML, CSS & JavaScript. I also build web applications.
 # Installation instructions: 
